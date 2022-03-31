@@ -1,0 +1,10 @@
+.poke-tile {
+  color: red;
+  float: left;
+  padding: 10px;
+  margin:20px;
+  width: 250px;
+  height: 250px;
+  background-color: #E7E7E7;
+  text-align: center;
+}
