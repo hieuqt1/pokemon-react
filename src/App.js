@@ -50,6 +50,7 @@ export default function App() {
   return (
     <div className="PokePage">
       <h1>National Pokedex</h1>
+      <h2>Hieu Tran</h2>
       <img src={pokebanner} alt="best boi" className="PokeBanner"></img>
       <div className="PokeIntro">
         <img src={professor} alt="old boi" width="144.5" height="270"></img>
