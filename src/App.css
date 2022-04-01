@@ -36,11 +36,14 @@ p {
 
 .PokeIntro {
   margin-top: 3%;
-  padding: 2px;
+  padding: 5px;
   display: flex;
-  width: 80%;
+  width: 70%;
   text-align: center;
   font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  background-color: #cdcdcd;
 }
 
 .AddMargin {

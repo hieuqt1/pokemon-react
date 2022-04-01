@@ -15,6 +15,10 @@ export default function PokeList(props) {
         <PokeTab number = {props.items[5].number} name = {props.items[5].name} type = {props.items[5].type}></PokeTab>
         <PokeTab number = {props.items[6].number} name = {props.items[6].name} type = {props.items[6].type}></PokeTab>
         <PokeTab number = {props.items[7].number} name = {props.items[7].name} type = {props.items[7].type}></PokeTab>
+        <PokeTab number = 'example' name = 'example' type = 'example'></PokeTab>
+        <PokeTab number = 'example' name = 'example' type = 'example'></PokeTab>
+        <PokeTab number = 'example' name = 'example' type = 'example'></PokeTab>
+        <PokeTab number = 'example' name = 'example' type = 'example'></PokeTab>
       </Card>)
 }
 

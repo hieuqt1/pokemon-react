@@ -3,5 +3,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     max-width: 95%;
-    background-color: white;
+    max-height: 70vh;
+    overflow: auto;
+    background-color: black;
   }

@@ -1,4 +1,5 @@
 import PokeList from "./components/PokeList";
+import Card from "./components/Card";
 import pokebanner from "./pokemon-anniversary.PNG";
 import professor from "./Professor_Oak.webp";
 import "./App.css";
@@ -50,9 +51,8 @@ export default function App() {
   return (
     <div className="PokePage">
       <h1>National Pokedex</h1>
-      <h2>Hieu Tran</h2>
-      <img src={pokebanner} alt="best boi" className="PokeBanner"></img>
-      <div className="PokeIntro">
+      <img src={pokebanner} alt="best boi" className="PokeBanner"></img>8
+      <Card className="PokeIntro">
         <img src={professor} alt="old boi" width="144.5" height="270"></img>
         <p>
           Hello there! Welcome to the world of Pokémon! My name is Oak! People
@@ -66,7 +66,7 @@ export default function App() {
           want you to fulfill my dream for me! Get moving! This is
           a great undertaking in Pokémon history!
         </p>
-      </div>
+      </Card>
       <PokeList className="AddMargin" items = {pokeinfo} />
     </div>
   );
