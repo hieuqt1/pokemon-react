@@ -1,0 +1,37 @@
+.OakIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.PokeIntro {
+    margin-top: 3%;
+    padding: 5px;
+    display: flex;
+    width: 50%;
+    min-height: 40vh;
+    max-height: 40vh;
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    background-color: #cdcdcd;
+  }
+
+p {
+    margin-left: 3%;
+}
+
+.FormIntro {
+    margin-top: 3%;
+    padding: 5px;
+    display: flex;
+    width: 10%;
+    min-height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    background-color: #cdcdcd;
+}

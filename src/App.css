@@ -30,20 +30,9 @@ h1 {
   border: 1px solid gray;
 }
 
+
 p {
   font-family: 'Chakra Petch', sans-serif;
-}
-
-.PokeIntro {
-  margin-top: 3%;
-  padding: 5px;
-  display: flex;
-  width: 70%;
-  text-align: center;
-  font-size: 24px;
-  align-items: center;
-  justify-content: center;
-  background-color: #cdcdcd;
 }
 
 .AddMargin {
