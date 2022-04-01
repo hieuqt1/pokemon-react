@@ -51,7 +51,7 @@ export default function App() {
   return (
     <div className="PokePage">
       <h1>National Pokedex</h1>
-      <img src={pokebanner} alt="best boi" className="PokeBanner"></img>8
+      <img src={pokebanner} alt="best boi" className="PokeBanner"></img>
       <Card className="PokeIntro">
         <img src={professor} alt="old boi" width="144.5" height="270"></img>
         <p>
