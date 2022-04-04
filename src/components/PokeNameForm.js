@@ -6,7 +6,7 @@ export default function PokeNameForm() {
         <Card>
             <form className='form'>
                 <label>What is your name?</label>
-                <input></input>
+                <input type='name'></input>
             </form>
             <button type="submit">Welcome</button>
         </Card>)
